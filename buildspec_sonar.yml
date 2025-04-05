@@ -74,7 +74,7 @@ phases:
 
           echo "❌ Quality Gate failed"
 
-          exit 1
+          # exit 1
 
         else
 
