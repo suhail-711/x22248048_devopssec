@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: akash23377348:LOGIN
-    HOST: akash23377348:HOST
-    Organization: akash23377348:Organization
-    Project: akash23377348:Project
+    LOGIN: x22248048_sonar_secret:LOGIN
+    HOST: x22248048_sonar_secret:HOST
+    Organization: x22248048_sonar_secret:Organization
+    Project: x22248048_sonar_secret:Project
 phases:
   install:
     runtime-versions:
