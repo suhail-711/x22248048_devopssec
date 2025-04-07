@@ -27,6 +27,9 @@ phases:
       - pylint --exit-zero $CODEBUILD_SRC_DIR/drs_appointment/*.py
 
       - pylint --exit-zero $CODEBUILD_SRC_DIR/booking/*.py
+      - echo "Running unit test cases on `date`"
+      - pytest --junitxml=report.xml 
+      - echo "Completed Running Test cases on `date`  "
 
 artifacts:
 
